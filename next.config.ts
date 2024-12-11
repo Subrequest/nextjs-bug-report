@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  deploymentId: Date.now().toString(),
 };
 
 export default nextConfig;
